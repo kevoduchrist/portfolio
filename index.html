@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="Site officiel de Kévo D uchrist — graphiste, artiste rappeur et compositeur béninois.">
+  <title>Kévo D uchrist — Site officiel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Kévo D uchrist, accueil">KD<span>.</span></a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="active" href="#accueil">Accueil</a>
+      <a href="#biographie">Biographie</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-cover" role="img" aria-label="Photo de couverture"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <div class="profile-wrap">
+          <img class="profile-photo" src="profil.png" alt="Portrait de Kévo D uchrist"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="profile-fallback" aria-hidden="true">KD</div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Artiste indépendant · Bénin</p>
+          <h1>Kévo <span>D uchrist</span></h1>
+          <p class="roles">Graphic Designer <i>|</i> Artiste rappeur<br>Compositeur <i>|</i> Song Writer <i>|</i> Lyrics Maker</p>
+          <a class="button button-gold" href="#portfolio">Découvrir mon portfolio <span>↗</span></a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#biographie"><span></span> Défiler pour découvrir</a>
+    </section>
+
+    <section class="welcome section reveal">
+      <p class="eyebrow">Bienvenue dans mon univers</p>
+      <h2>La créativité comme voix.<br><span>La résilience comme identité.</span></h2>
+      <p class="lead">Graphisme, musique et création : découvrez mon parcours et mes réalisations.</p>
+    </section>
+
+    <section class="bio section reveal" id="biographie">
+      <div class="section-heading">
+        <p class="eyebrow">Mon histoire</p>
+        <h2>Biographie<span>.</span></h2>
+      </div>
+      <div class="bio-card">
+        <p>De son vrai nom Kévine SEGLA AZÉ, Kévo D uchrist est un artiste rappeur, compositeur et graphiste béninois originaire de Zogbodomey, dans le département du Zou. Né le 22 décembre 2005 à Cocotomey, il grandit avec une passion profonde pour la création.</p>
+        <p>Brillant élève dès son plus jeune âge, il effectue son parcours primaire entre Hêvié, Somè et Cocotomey, notamment au Complexe Scolaire Sainte Victorine où il obtient son CEP en 2019. En 2016, un accident lui cause une fracture à la jambe. Cette épreuve marque son parcours et forge sa résilience.</p>
+        <p>Au collège, il passe par le CEG Akassato, puis le Collège Fènou Mahouton avant le CEG Cocotomey. En classe de Seconde, il interrompt sa scolarité à 17 ans pour se former en graphisme design à l'Institut de Multimédia Appliqué de Bohicon (IMA Bohicon).</p>
+        <p>La musique l'accompagne depuis l'enfance. Il écrit très tôt des textes et des poèmes. En 2023, il participe au challenge Handjin Andjia de Tyaf. Durant sa formation à Bohicon, il rencontre l'artiste Raphall, avec lequel il sort « Je suis béninois » (audio 2025, clip IA 2026).</p>
+        <p>En 2026, il participe aux Open-Verse de Bobo Wizy (Djandjou) et de Young Man (Akpakpa ville). On retrouve également sur BandLab ses titres « RedCard » et « Zomin » feat. Zola 07.</p>
+        <p class="bio-signature">Graphiste de formation, rappeur de conviction, Kévo D uchrist incarne une nouvelle génération d'artistes béninois qui font de la résilience une identité artistique.</p>
+      </div>
+    </section>
+
+    <section class="portfolio section reveal" id="portfolio">
+      <div class="portfolio-panel">
+        <div>
+          <p class="eyebrow">Créations & réalisations</p>
+          <h2>Mon <span>portfolio</span></h2>
+          <p>Retrouvez une sélection de mon travail et téléchargez mon portfolio complet au format PDF.</p>
+        </div>
+        <a class="button button-gold download-button" href="portfolio.pdf" download>
+          <span class="download-icon">↓</span> TÉLÉCHARGER
+        </a>
+      </div>
+      <p class="small-note">Le fichier <strong>portfolio.pdf</strong> doit être placé à la racine du site, à côté de ce fichier index.html.</p>
+    </section>
+
+    <section class="contact section reveal" id="contacts">
+      <div class="section-heading">
+        <p class="eyebrow">Restons en contact</p>
+        <h2>Un projet en tête<span> ?</span></h2>
+      </div>
+      <p class="lead">Pour une collaboration, une commande graphique ou un projet musical, écrivez-moi.</p>
+      <a class="button button-outline" href="mailto:kevoduchrist3@gmail.com">✉ Écrire un e-mail</a>
+      <p class="email">kevoduchrist3@gmail.com</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#accueil">KD<span>.</span></a>
+    <p>© <span id="year">2026</span> Kévo D uchrist · Tous droits réservés</p>
+    <a href="mailto:kevoduchrist3@gmail.com">Me contacter ↗</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
